@@ -74,11 +74,11 @@ public class MovieResourceTest {
         }
     }
     
-    @Test
+    /*@Test
     public void testServerIsUp() {
         System.out.println("Testing is server UP");
         given().when().get("/api").then().statusCode(200);
-    }
+    }*/
    
     //This test assumes the database contains two rows
     @Test
